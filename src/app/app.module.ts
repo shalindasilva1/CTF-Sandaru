@@ -13,12 +13,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { StartPageComponent } from './start-page/start-page.component';
 
 import { FileSaverModule } from 'ngx-filesaver';
+import { SourceCodeComponent } from './source-code/source-code.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     TextFileComponent,
-      StartPageComponent
+      StartPageComponent,
+      SourceCodeComponent
    ],
   imports: [
     BrowserModule,

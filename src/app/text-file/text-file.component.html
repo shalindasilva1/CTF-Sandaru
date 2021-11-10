@@ -1,3 +1,18 @@
-<p>
-  text-file works!
-</p>
+<mat-grid-list cols="3" rowHeight="2:1">
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile>
+    <p>
+      Download this text file and decrypt it <button mat-raised-button color="primary"
+        (click)="downloadTxt()">Download</button>
+    </p>
+  </mat-grid-tile>
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile></mat-grid-tile>
+  <mat-grid-tile>
+    <button mat-raised-button color="primary" (click)="goToPage('2')">Go next ></button>
+  </mat-grid-tile>
+</mat-grid-list>

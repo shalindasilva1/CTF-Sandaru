@@ -12,6 +12,7 @@ export class StartPageComponent implements OnInit {
 
   ngOnInit() {
   }
+  
   goToPage(pageNo:string){
     this.router.navigate(['/'+pageNo]);
   }

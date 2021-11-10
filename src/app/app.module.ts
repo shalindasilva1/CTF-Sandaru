@@ -12,6 +12,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { StartPageComponent } from './start-page/start-page.component';
 
+import { FileSaverModule } from 'ngx-filesaver';
+
 @NgModule({
   declarations: [	
     AppComponent,
@@ -24,8 +26,9 @@ import { StartPageComponent } from './start-page/start-page.component';
     BrowserAnimationsModule,
     MatGridListModule,
     MatButtonModule,
-    FlexLayoutModule
-  ],
+    FlexLayoutModule,
+    FileSaverModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

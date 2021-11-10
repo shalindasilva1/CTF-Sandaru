@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TextFileComponent } from './text-file/text-file.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
@@ -15,14 +17,18 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { FileSaverModule } from 'ngx-filesaver';
 import { SourceCodeComponent } from './source-code/source-code.component';
 import { ImagePageComponent } from './image-page/image-page.component';
+import { ZipFilePageComponent } from './zip-file-page/zip-file-page.component';
+import { ApkPageComponent } from './apk-page/apk-page.component';
 
 @NgModule({
-  declarations: [			
+  declarations: [						
     AppComponent,
     TextFileComponent,
       StartPageComponent,
       SourceCodeComponent,
-      ImagePageComponent
+      ImagePageComponent,
+      ZipFilePageComponent,
+      ApkPageComponent
    ],
   imports: [
     BrowserModule,
@@ -31,7 +37,8 @@ import { ImagePageComponent } from './image-page/image-page.component';
     MatGridListModule,
     MatButtonModule,
     FlexLayoutModule,
-    FileSaverModule
+    FileSaverModule,
+    HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]

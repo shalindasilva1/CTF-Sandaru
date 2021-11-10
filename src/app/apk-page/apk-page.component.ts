@@ -13,7 +13,7 @@ export class ApkPageComponent implements OnInit {
   ngOnInit() {
   }
   openLink(){
-    window.open('https://drive.google.com/file/d/1-uPzZj-QFl42DBnLBaxBH4lJV-OsyLcg/view',"_blank");
+    window.open('https://drive.google.com/file/d/1Q52BUKrE9V3Yq2PJdLXmF0IMNR-tgz0w/view?usp=sharing',"_blank");
   }
 
   goToPage(pageNo: string) {

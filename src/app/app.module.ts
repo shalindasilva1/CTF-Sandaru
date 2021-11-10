@@ -14,13 +14,15 @@ import { StartPageComponent } from './start-page/start-page.component';
 
 import { FileSaverModule } from 'ngx-filesaver';
 import { SourceCodeComponent } from './source-code/source-code.component';
+import { ImagePageComponent } from './image-page/image-page.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
     TextFileComponent,
       StartPageComponent,
-      SourceCodeComponent
+      SourceCodeComponent,
+      ImagePageComponent
    ],
   imports: [
     BrowserModule,

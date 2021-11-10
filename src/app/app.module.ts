@@ -21,15 +21,15 @@ import { ZipFilePageComponent } from './zip-file-page/zip-file-page.component';
 import { ApkPageComponent } from './apk-page/apk-page.component';
 
 @NgModule({
-  declarations: [						
+  declarations: [
     AppComponent,
     TextFileComponent,
-      StartPageComponent,
-      SourceCodeComponent,
-      ImagePageComponent,
-      ZipFilePageComponent,
-      ApkPageComponent
-   ],
+    StartPageComponent,
+    SourceCodeComponent,
+    ImagePageComponent,
+    ZipFilePageComponent,
+    ApkPageComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -39,7 +39,7 @@ import { ApkPageComponent } from './apk-page/apk-page.component';
     FlexLayoutModule,
     FileSaverModule,
     HttpClientModule
-    ],
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

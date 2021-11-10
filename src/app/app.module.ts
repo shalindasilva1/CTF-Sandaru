@@ -10,12 +10,14 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatButtonModule } from '@angular/material/button';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { StartPageComponent } from './start-page/start-page.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
-    TextFileComponent
-  ],
+    TextFileComponent,
+      StartPageComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
